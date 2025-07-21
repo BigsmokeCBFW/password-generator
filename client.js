@@ -26,7 +26,6 @@ function generatePassword() {
 
 function copyToClipboard(id) {
         const password = document.getElementById(id);
-        let jjj = password.innerText
-        navigator.clipboard.writeText(jjj);
-        console.log(password.innerText)
+        let content = password.innerText
+        navigator.clipboard.writeText(content);
 }
